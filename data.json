@@ -1,32 +1,20 @@
 {
-    "Justin": {
-        "name":"Justin",
+    "thing1": {
+        "name":"Tennis",
         "role":"Coordinator",
-        "nickname":"i don't know",
-        "biopic":"justin.jpg"
+        "desc":"i don't know",
+        "url":"justin.jpg"
     },
-    "John": {
-        "name":"John",
+    "thinng2": {
+        "name":"Cook",
         "role":"super chill prof",
-        "nickname":"just john",
-        "biopic":"john.jpg"
+        "desc":"just john",
+        "url":"john.jpg"
     },
-    "Joe": {
-        "name":"Joe",
+    "thing3": {
+        "name":"Treavel",
         "role":"Prof",
-        "nickname":"Teddy Bear",
-        "biopic":"joe.jpg"
-    },
-    "Pan": {
-        "name":"Pan",
-        "role":"Code Ninja",
-        "nickname":"Spider Pan",
-        "biopic":"pan.jpg"
-    },
-    "Trevor": {
-        "name":"Trevor",
-        "role":"Dark Arts Prof",
-        "nickname":"T Dazzle",
-        "biopic":"trevor.jpg"
+        "desc":"Teddy Bear",
+        "url":"joe.jpg"
     }
   }
