@@ -1,20 +1,21 @@
-{
-    "thing1": {
-        "name":"Tennis",
-        "role":"Coordinator",
+
+ { "thing1": {
+        "name":"travel",
+        "role":"Hobby that makes my heart flutter.",
         "desc":"i don't know",
-        "url":"justin.jpg"
+        "url":"travel.jpg"
     },
-    "thinng2": {
-        "name":"Cook",
-        "role":"super chill prof",
+    "thing2": {
+        "name":"cook",
+        "role":"A dish that makes me happy.",
         "desc":"just john",
-        "url":"john.jpg"
+        "url":"cook.jpg"
     },
     "thing3": {
-        "name":"Treavel",
-        "role":"Prof",
+        "name":"tennis",
+        "role":"The only exercise I can do.",
         "desc":"Teddy Bear",
-        "url":"joe.jpg"
-    }
+        "url":"tennis.jpg"
+         }
+
   }
