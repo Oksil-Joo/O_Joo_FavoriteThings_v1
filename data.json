@@ -1,21 +1,21 @@
-
- { "thing1": {
-        "name":"travel",
-        "role":"Hobby that makes my heart flutter.",
-        "desc":"i don't know",
-        "url":"travel.jpg"
-    },
-    "thing2": {
-        "name":"cook",
-        "role":"A dish that makes me happy.",
-        "desc":"just john",
-        "url":"cook.jpg"
-    },
-    "thing3": {
+{
+    "tennis": {
         "name":"tennis",
-        "role":"The only exercise I can do.",
+        "role":"Coordinator",
+        "desc":"i don't know",
+        "favoritepic":"tennis.jpg"
+    },
+    "cook": {
+        "name":"cook",
+        "role":"super chill prof",
+        "desc":"just john",
+        "favoritepic":"cook.jpg"
+    },
+    "travel": {
+        "name":"travel",
+        "role":"Prof",
         "desc":"Teddy Bear",
-        "url":"tennis.jpg"
-         }
+        "favoritepic":"travel.jpg"
+    }
 
   }

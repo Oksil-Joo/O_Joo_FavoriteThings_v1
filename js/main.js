@@ -1,6 +1,7 @@
 (() => {
-    const   theTeam = document.querySelector("#team-members"),
-            theTemplate = document.querySelector("#bio-template").content;
+    const   theFavor = document.querySelector("#favour-things"),
+            theTemplate = document.querySelector("#fav-template").content;
+  
     // let buttons = document.querySelectorAll("button");
           
 
@@ -10,7 +11,7 @@
         .then(data => {
             console.table(data);
         
-            buildTeam(data);
+            buildFavor(data);
         })
         .catch(error => console.error(error));
     }
@@ -19,28 +20,28 @@
         
 //         let key = this.dataset.key;
 
-//         let headline = document.querySelector("h1");
+//         let headline = document.querySelector("h2");
 
 //         headline.textContent = data[key].name;
-// };
+// }
 
 
 
-    function buildTeam(info) {
-       let team = Object.keys(info);
+    function buildFavor(info) {
+       let favor = Object.keys(info);
 
-       team.forEach(person => {
+       favor.forEach(hobby => {
            let panel = theTemplate.cloneNode(true),
-                memberInfo = panel.firstElementChild.children;
+                thingInfo = panel.firstElementChild.children;
 
-            memberInfo[0].querySelector('img').src = `images/${info[person].biopic}}`;
-            memberInfo[1].textContent = info[person].name;
-            memberInfo[2].textContent = info[person].role;
-            memberInfo[3].textContent = info[person].desc;
+                thingInfo[0].querySelector('img').src = `images/${info[hobby].favoritepic}`;
+                thingInfo[1].textContent = info[hobby].name;
+                thingInfo[2].textContent = info[hobby].role;
+                thingInfo[3].textContent = info[hobby].desc;
 
-            theTeam.appendChild(panel);
+            theFavor.appendChild(panel);
        })
-    };
+    }
 
     getData();
 
